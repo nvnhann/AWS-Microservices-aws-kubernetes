@@ -1,0 +1,46 @@
+.
+├── analytics
+│   ├── app.py
+│   ├── config.py
+│   ├── Dockerfile
+│   ├── __init__.py
+│   ├── models.py
+│   └── requirements.txt
+├── bin
+│   ├── clean.sh
+│   ├── create-cluster.sh
+│   ├── create_repository.sh
+│   ├── install_awscli.sh
+│   ├── install_eksctl.sh
+│   ├── install_helm.sh
+│   ├── install_psql.sh
+│   └── shell.sh
+├── buildspec.yml
+├── CODEOWNERS
+├── db
+│   ├── 1_create_tables.sql
+│   ├── 2_seed_users.sql
+│   └── 3_seed_tokens.sql
+├── deployment
+│   ├── app.yml
+│   ├── env-configmap.yml
+│   └── env-secret.yml
+├── LICENSE.txt
+├── README.md
+├── Screenshots
+│   ├── Api_1.png
+│   ├── Api_2.png
+│   ├── Api_3.png
+│   ├── Api_4.png
+│   ├── Cloudwatch_1.png
+│   ├── Cloudwatch_2.png
+│   ├── Codebuild_1.png
+│   ├── Codebuild_2.png
+│   ├── Codebuild_3.png
+│   ├── Codebuild_4.png
+│   ├── ECR_1.png
+│   ├── ECR_2.png
+│   ├── Kubectl_describe_deployment.png
+│   ├── Kubectl_describe_svc.png
+│   ├── Kubectl_get_logs.png
+│   └── Kubectl_get_svc.png
